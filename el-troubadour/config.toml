@@ -1,0 +1,45 @@
+baseurl         = "https://eltroubadour.com"
+theme           = "eltroubadour"
+title       	= "Tiamo El Troubadour"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+summaryLength 	= 18
+#SectionPagesMenu = "main"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  title       = "Tiamo El Troubadour"
+  subtitle    = "Musician on a Cushion"
+
+  favicon     = "favicon.png"
+
+  defTab     = "defimg-tab.webp"
+  defBlog    = "defimg-blog.webp"
+
+  cover       = "img/blog-cover.jpg"
+  description = "The homepage for everything related to Tiamo's music."
+  metaDescription = ""
+
+  twitterName = "TiamoElTroubadour"
+  fbName = "TiamoElTroubadour"
+  githubName = "TiamoElTroubadour"
+
+  author = "Tiamo Pastoor"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Netherlands"
+  authorWebsite = "https://rodepanda.com"
+  authorDescription = "I do stuff ... artfully"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+[permalinks]
+  post = "/:slug/"

@@ -1,0 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <script src="/js/shuffle.js"></script>
+
+    <link rel="icon"  type="image/png" href="{{ .Site.Params.favicon | absURL }}">
+
+    <!-- Amatic SC: header font, Kreon: body font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <noscript>
+	   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kreon:wght@300;500;700&display=swap" rel="stylesheet">
+    </noscript>
+    
+	<!-- Display correct (perhaps concatenated) site title -->
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

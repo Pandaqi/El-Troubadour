@@ -1,0 +1,33 @@
+{{ define "main" }}
+<a href="albums" class="header-link"><h2 class="front-title">Latest Albums</h2></a>
+<p class="front-tagline" style="font-size:16px;font-weight:lighter;">Makes music because he doesn't know what to do otherwise.</p>
+	
+	<div class="album-grid">
+		<!-- DISPLAY ACTUAL MUSIC/ALBUMS from the "albums" -->
+		<!-- These are REQUIRED to have an image and title -->
+		{{ range first 6 (where .Site.RegularPages "Section" "albums") }}
+			{{ partial "album-summary.html" . }}
+		{{ end }}
+	</div>
+
+<a href="blog" class="header-link"><h2 class="front-title">News/Blog</h2></a>
+<p class="front-tagline">Writes about music whenever he's too tired to make it.</p>
+
+	<div class="list-grid">
+		<!-- DISPLAY BLOG/NEWS POSTS from the "blog" -->
+		{{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+			{{ partial "post-summary.html" . }}
+		{{ end }}
+	</div>
+
+<a href="tabs" class="header-link"><h2 class="front-title">Tabs</h2></a>
+<p class="front-tagline">Loves to share the lyrics and chords behind each song.</p>
+
+	<div class="list-grid">
+		<!-- DISPLAY BLOG/NEWS POSTS from the "blog" -->
+		{{ range first 4 (where .Site.RegularPages "Section" "tabs") }}
+			{{ partial "post-summary.html" . }}
+		{{ end }}
+	</div>
+
+{{ end }}

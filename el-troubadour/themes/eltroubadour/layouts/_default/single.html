@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+	{{ if or (eq .Section "albums") (.Params.use_title_in_menu ) }}
+
+		{{if .Params.image }}
+		<!-- This is a direct copy of the code in album-summary.html, but I don't know how to unify this right now?? -->
+	    <div class="album-cover" style="background-color: {{ .Params.album_border_color }};" >
+	    	<div class="album-shadow">
+	      		<img src="{{.Params.image | absURL}}" />
+	      	</div>
+	    </div>
+	    {{ end }}
+
+    {{ else }}
+    	<h1 class="bare-heading blog-heading">{{ .Title }}</h1>
+    {{ end }}
+
+    <div class="tag-list">
+    	{{ if .Date }}
+    		<span class="tag tag-date"> {{ .Date.Format "Jan 02 2006" }} </span>
+    	{{ end }}
+		{{ partial "tag-list" . }}
+	</div>
+
+	{{ if .Params.include_toc }}
+	<aside style="margin-top: 5px;">
+		<div id="show-toc" class="tag tag-neutral">Show Table of Contents</div>
+		<div id="toc" style="display:none;">
+        	{{ .TableOfContents }}
+        </div>
+        <script>
+        	var toc = document.getElementById('toc');
+        	document.getElementById('show-toc').addEventListener('click', function(ev) {
+        		if(toc.style.display == 'block') {
+        			ev.currentTarget.innerHTML = 'Show Table of Contents';
+        			toc.style.display = 'none';
+        		} else {
+        			ev.currentTarget.innerHTML = 'Hide Table of Contents';
+        			toc.style.display = 'block';
+        		}
+        	});
+        </script>
+    </aside>
+    {{ end }}
+
+	{{ .Content }}
+
+	{{ if .Params.display_tabs }}
+		<h2>Tabs / Chords / Lyrics</h2>
+		<p>If possible, I publish the lyrics/chords/tablature for all my songs!</p>
+		<p>This way, anyone can play my music and discover the chords, without wasting time trying to figure out the precise chord being played or lyric being sung.</p>
+		<p>Pick your favorite song below and start playing:</p>
+		<ul class="tab-list">
+		{{ range where .Site.RegularPages ".Params.matching_album" .Params.album_id }}
+			<li>
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</li>
+		{{ end }}
+		</ul>
+	{{ end }}
+
+{{ end }}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1 class="bare-heading blog-heading">{{ .Title }}</h1>
+	
+	<div class="list-grid">
+		{{ range .Paginator.Pages }}
+			{{ if eq .Section "albums" }}
+				{{ partial "album-summary.html" . }}
+			{{ else }}
+				{{ partial "post-summary.html" . }}
+			{{ end }}
+		{{ end }}
+	</div>
+	<div>
+		{{ template "_internal/pagination.html" . }}
+	</div>
+
+{{ end }}

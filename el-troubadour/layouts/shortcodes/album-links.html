@@ -1,0 +1,12 @@
+<section class="album-links">
+	{{ $urls := or $.Page.Params.urls slice }}
+	{{ range $key, $val := $urls }}
+
+		<a href="{{ $val.url }}" class="album-link album-link-{{ $val.name }}" title="{{ $val.name | humanize }}">
+		</a>
+	{{ end }}
+
+	{{ if eq (len $urls) 0 }}
+		<p class="album-link-coming-soon">Coming Soon!</p>
+	{{ end }}
+</section>

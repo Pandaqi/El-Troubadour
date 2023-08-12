@@ -1,0 +1,7 @@
+{{if .Params.tags }}
+	{{ range $index, $tag := .Params.tags }}
+	<span class="tag">
+		{{ $tag }} 
+	</span>
+	{{end}} 
+{{ end }}

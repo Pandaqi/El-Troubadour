@@ -1,0 +1,53 @@
+{{ if .IsHome }}
+
+<header class="long-header">
+    <div id="logo-filler">
+    </div>
+
+    <script>
+        function gotoRandomAlbum() {
+            var allAlbums = []
+            {{ range (where .Site.RegularPages "Section" "albums") }}
+                allAlbums.push("{{ .Permalink }}");
+            {{ end }}
+
+            var randURL = allAlbums[Math.floor(Math.random() * allAlbums.length)];
+
+            console.log(randURL);
+
+            window.location.href = randURL;
+            return false;
+        }
+    </script>
+
+    <div id="nav-container">
+        <nav id="nav" class="nav-grid">
+            <a href="#" class="nav-link" style="grid-column: span 2; background-color: #744E00;" onclick="gotoRandomAlbum()">Random album</a>
+            <a href='{{ "blog" | absURL }}' class="nav-link" style="background-color: #2EA230;">Blog</a>
+            <a href='{{ "about" | absURL }}' class="nav-link" style="background-color: #223E8B;">About</a>
+            <a href="https://tiamo.bandcamp.com" class="nav-link" style="grid-column: span 2; background-color: #983799;">Buy my music</a>
+        </nav>
+    </div>
+</header>
+
+{{ else }}
+
+<header class="truncated-header">
+    <nav id="truncated-nav">
+        <a href='{{ "" | absURL }}' class="icon-link"><span class="icon icon-home"></span></a>
+        <a href='{{ "albums" | absURL }}' class="icon-link"><span class="icon icon-albums"></span></a>
+        {{ if eq .Section "tabs" }}
+            <h1 class="bare-heading nav-heading">Tab</h1>
+        {{ else if eq .Section "lyrics" }}
+            <h1 class="bare-heading nav-heading">Lyrics</h1>
+        {{ else if eq .Section "blog" }}
+            <h1 class="bare-heading nav-heading">Blog</h1>
+        {{ else }}
+             <h1 class="bare-heading nav-heading">{{ .Title }}</h1>
+        {{ end }}
+        <a href='{{ "blog" | absURL }}' class="icon-link"><span class="icon icon-blog"></span></a>
+        <a href='{{ "about" | absURL }}' class="icon-link"><span class="icon icon-about"></span></a>
+    </nav>
+</header>
+
+{{ end }}

@@ -1,0 +1,14 @@
+<a href="{{ .Permalink }}" class="big-link">
+	<article>
+	    <div class="album-cover" style="background-color: {{ .Params.album_border_color }};" >
+	    	<div class="album-shadow">
+	      		<img src="{{.Params.image | absURL}}" />
+	      	</div>
+	      	<div class="tag-list" style="margin-top: 5px;">
+	      		<span class="tag tag-neutral">{{.Title | truncate 25 }}</span>
+
+	      		{{ partial "tag-list-summary.html" . }}
+	      	</div>
+	    </div>
+	</article>
+</a>
