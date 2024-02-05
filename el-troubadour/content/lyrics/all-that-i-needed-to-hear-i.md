@@ -1,12 +1,12 @@
 ---
 title: "All That I Needed to Hear I (Lyrics)"
 date: 2022-04-28T20:00:00+02:00
-draft: false
+draft: true
 tags: ["Lyrics", "English"]
 matching_album: "until its over"
 ---
 
-These are the official lyricsfor the song "All That I Needed to Hear (Part 1)". It's track #1 from the album ["Until It's Over"](/albums/until-its-over).
+These are the official lyrics for the song "All That I Needed to Hear (Part 1)". It's track #1 from the album ["Until It's Over"](/albums/until-its-over).
 
 ## Verse 1 
 What’s the point, what am  

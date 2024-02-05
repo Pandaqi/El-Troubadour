@@ -1,7 +1,7 @@
 ---
 title: "A Song for a Beautiful City (Lyrics)"
 date: 2022-04-03T23:37:57+02:00
-draft: false
+draft: true
 tags: ["Lyrics", "English"]
 matching_album: "dont forget me"
 ---

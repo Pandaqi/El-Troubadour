@@ -1,7 +1,7 @@
 ---
 title: "Notes on \"Until It's Over\" "
 date: 2022-05-02T19:30:33+02:00
-draft: false
+draft: true
 
 image: "defimg-placeholder.webp"
 tags: ["Album Diary"]

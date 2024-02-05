@@ -1,7 +1,7 @@
 ---
 title: "Don't Forget Me (Chords)"
 date: 2022-04-03T23:37:57+02:00
-draft: false
+draft: true
 tags: ["Tab", "Chords", "Piano", "Lyrics", "English"]
 matching_album: "dont forget me"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "A Thousand Places I Don't Know II (Chords)"
 date: 2022-04-28T20:00:00+02:00
-draft: false
+draft: true
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
 matching_album: "until its over"
 ---
