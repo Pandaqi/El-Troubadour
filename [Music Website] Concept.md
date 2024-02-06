@@ -224,9 +224,9 @@ Once you're inside this loop, though, everything is really straightforward:
 
 -   {{ .Data.Format "Jan 02 2006" }} gets you the date in that specific format. (You must always use that specific data when formatting. But the *order* in which you place elements, and *how* you write them, provide an easy way to format dates exactly as you want.)
 
--   {{ .Permalink }} gives you the link to the article.
+-   {{ .RelPermalink }} gives you the link to the article.
 
-You can simply type these anywhere you like, and it prints the correct text to the page. So you can do \<h2>{{ .Title }}\</h2>, but also \<a href="{{ .Permalink }}">Read more\</a>, and it all just works.
+You can simply type these anywhere you like, and it prints the correct text to the page. So you can do \<h2>{{ .Title }}\</h2>, but also \<a href="{{ .RelPermalink }}">Read more\</a>, and it all just works.
 
 **Step 5:** **learn to add your own Params.**
 

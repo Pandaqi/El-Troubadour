@@ -8,7 +8,7 @@
         function gotoRandomAlbum() {
             var allAlbums = []
             {{ range (where .Site.RegularPages "Section" "albums") }}
-                allAlbums.push("{{ .Permalink }}");
+                allAlbums.push("{{ .RelPermalink }}");
             {{ end }}
 
             var randURL = allAlbums[Math.floor(Math.random() * allAlbums.length)];

@@ -53,7 +53,7 @@
 		<ul class="tab-list">
 		{{ range where .Site.RegularPages ".Params.matching_album" .Params.album_id }}
 			<li>
-				<a href="{{ .Permalink }}">{{ .Title }}</a>
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 			</li>
 		{{ end }}
 		</ul>

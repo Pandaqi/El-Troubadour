@@ -49,7 +49,7 @@ And my writing has its own home as well, although that is only in Dutch (!): [Ni
 
 Email is the magic word!
 
-Ask me anything at [tiamo@eltroubadour.com](mailto:tiamo@eltroubadour.com)
+Ask me anything at [tiamopastoor@gmail.com](mailto:tiamopastoor@gmail.com)
 
 **(Live) Performances?** Due to my health issues, I'm not touring or doing (live) performances. I have dreams and high hopes, obviously, but it's unlikely that will ever be a reality for me.
 
