@@ -1,3 +1,7 @@
+@function invert() {
+	@return #{ "invert()" };
+}
+
 body {
     font-family: 'Kreon', Calibri, serif;
     font-weight: 300;
