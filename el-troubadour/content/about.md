@@ -15,11 +15,13 @@ My musical brain is, somehow, divided into four parts.
 
 I love [singer-songwriter stuff](/tags/singer-songwriter), small songs with just a piano and a voice, cute melodies or heartbreaking lyrics.
 
-But I also love [folk/pop/rock](/tags/folk-pop-rock) - the stomping your foot, shouting along, breaking your guitar strings kind.
+But due to the health issues I'll explain below, I also make [instrumental](/tags/instrumental) music from time to time.
+
+I love [folk/pop/rock](/tags/folk-pop-rock)---the stomping your foot, shouting along, breaking your guitar strings kind.
 
 But I also grew up in the theatre, creating a love for [musical theatre songs](/tags/musical-theatre). I'm just as likely to start belting "Empty Chairs at Empty Tables" as I am to sing some obscure Mumford & Sons song.
 
-And due to the health issues I'll explain below, I also make [instrumental](/tags/instrumental) music from time to time.
+Though these last two categories currently don't have any album yet, due to those darn health issues.
 
 ## My Body
 
@@ -43,7 +45,7 @@ To view an overview of all my work, visit my [Portfolio](https://rodepanda.com).
 
 My game studio has a separate website: [Pandaqi](https://pandaqi.com).
 
-And my writing has its own home as well, although that is only in Dutch (!): [Niet Dat Het Uitmaakt](https://nietdathetuitmaakt.nl).
+And my writing has its own home as well: [Tiamo Pastoor](https://tiamopastoor.com).
 
 ## Contact
 

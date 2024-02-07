@@ -1,9 +1,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-
-    <script src="/js/shuffle.js"></script>
+    
+    <!--- Note this file is built into the CSS folder, so any assets the styling needs should be in static/css folder --->
+    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "transpiler" "dartsass") }}
+    {{ $style := resources.Get "sass/style.scss" | resources.ToCSS $options }}
+    <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
 
     <link rel="icon"  type="image/png" href="{{ .Site.Params.favicon | absURL }}">
 
