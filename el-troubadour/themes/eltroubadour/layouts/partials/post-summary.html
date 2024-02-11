@@ -3,12 +3,12 @@
 		<div class="article-summary-flex">
 			<div>
 				{{ if .Params.image }}
-					<img src="{{.Params.image | absURL}}" />
+					<img src="{{.Params.image }}" />
 				{{ else }}
 					{{ if in .Params.tags "Tab" }}
-						<img src='{{ .Site.Params.defTab | absURL }}' />
+						<img src="{{ .Site.Params.defTab }}" />
 					{{ else }}
-						<img src='{{ .Site.Params.defBlog | absURL }}' />
+						<img src="{{ .Site.Params.defBlog }}" />
 					{{ end }}
 				{{ end }}
 			</div>

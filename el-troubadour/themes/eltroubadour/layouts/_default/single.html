@@ -6,7 +6,7 @@
 		<!-- This is a direct copy of the code in album-summary.html, but I don't know how to unify this right now?? -->
 	    <div class="album-cover" style="background-color: {{ .Params.album_border_color }};" >
 	    	<div class="album-shadow">
-	      		<img src="{{.Params.image | absURL}}" />
+	      		<img src="{{ .Params.image }}" />
 	      	</div>
 	    </div>
 	    {{ end }}

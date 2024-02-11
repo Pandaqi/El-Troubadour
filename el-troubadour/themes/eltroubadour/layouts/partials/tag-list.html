@@ -1,8 +1,7 @@
 {{if .Params.tags }}
 	{{ range $index, $tag := .Params.tags }}
-		{{ $better_tag := $tag | urlize }}
-
-		<a href='{{ printf "%s/%s" "tags" $better_tag | absURL }}' class="tag-link">
+		{{ $url := printf "/tags/%s" ($tag | urlize) }}
+		<a href="{{  $url }}" class="tag-link">
 			<span class="tag">
 				{{ $tag }} 
 			</span>

@@ -1,8 +1,9 @@
 <a href="{{ .RelPermalink }}" class="big-link">
 	<article>
-	    <div class="album-cover" style="background-color: {{ .Params.album_border_color }};" >
+		{{ $border_color := .Params.album_border_color }}
+	    <div class="album-cover" style="background-color: {{ $border_color }};" >
 	    	<div class="album-shadow">
-	      		<img src="{{.Params.image | absURL}}" />
+	      		<img src="{{ .Params.image }}" />
 	      	</div>
 	      	<div class="tag-list" style="margin-top: 5px;">
 	      		<span class="tag tag-neutral">{{.Title | truncate 25 }}</span>
