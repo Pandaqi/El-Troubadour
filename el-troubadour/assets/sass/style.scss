@@ -2,8 +2,43 @@
 	@return #{ "invert()" };
 }
 
+$header-font: "Amatic SC";
+$body-font: "Kreon";
+
+@font-face {
+    font-family: $header-font;
+    src: url('fonts/AmaticSC-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $header-font;
+    src: url('fonts/AmaticSC-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $body-font;
+    src: url('fonts/Kreon-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $body-font;
+    src: url('fonts/Kreon-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'Kreon', Calibri, serif;
+    font-family: $body-font, Calibri, serif;
     font-weight: 300;
 
     padding: 0;
@@ -62,7 +97,7 @@ body {
 	color: white;
 	border-radius: 4px;
 	text-decoration: none;
-	font-family: 'Amatic SC', Arial, cursive;
+	font-family: $header-font, Arial, cursive;
 	font-size: 32px;
 
 	transition: filter 0.3s;
@@ -173,7 +208,7 @@ a .album-cover:hover {
  *
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Amatic SC', Arial, cursive;
+    font-family: $header-font, Arial, cursive;
     min-height: 50px;
 
     font-size: 30px;
@@ -376,7 +411,7 @@ footer {
 	padding: 10px;
 	display: inline-block;
 	font-size: 24px;
-	font-family: 'Amatic SC', Arial, cursive;
+	font-family: $header-font, Arial, cursive;
 	font-weight: 900;
 }
 

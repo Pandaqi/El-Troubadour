@@ -47,11 +47,15 @@ My game studio has a separate website: [Pandaqi](https://pandaqi.com).
 
 And my writing has its own home as well: [Tiamo Pastoor](https://tiamopastoor.com).
 
+These website were built, however, to easily display and release all my work _for free_. To share it freely, make it accessible, make it look nice, give it a home.
+
+To actually get an income, I run a [(mostly Dutch) webshop](https://nietdathetuitmaakt.nl) selling merchandise. This will be replaced by a much larger, international webshop selling both digital goods (e.g. sound effects, recordings, guides, etc) and physical goods (e.g. a nice T-shirt with a cool guitar logo) in the near future.
+
 ## Contact
 
 Email is the magic word!
 
-Ask me anything at [tiamopastoor@gmail.com](mailto:tiamopastoor@gmail.com)
+Ask me anything at [harmonize@eltroubadour.com](mailto:harmonize@eltroubadour.com)
 
 **(Live) Performances?** Due to my health issues, I'm not touring or doing (live) performances. I have dreams and high hopes, obviously, but it's unlikely that will ever be a reality for me.
 
