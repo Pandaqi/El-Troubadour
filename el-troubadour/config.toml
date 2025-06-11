@@ -2,10 +2,10 @@ baseurl         = "https://eltroubadour.com"
 theme           = "eltroubadour"
 title       	= "Tiamo El Troubadour"
 languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 6
 summaryLength 	= 18
-#SectionPagesMenu = "main"
+
+[pagination]
+  pagerSize = 6
 
 [markup]
   [markup.goldmark]
