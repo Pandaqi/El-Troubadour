@@ -1,0 +1,12 @@
+{{ $context := .context }}
+{{ $border_color := $context.Params.album_border_color }}
+{{ $img := $context.Params.image }}
+{{ $links := or .links false }}
+<div class="album-cover margin-none min-width-m padding-m border-radius-m position-relative width-maximize brighten_hover" style="background-color: {{ $border_color }}; z-index: 0;" >
+    <div class="inset-shadow-l bg-color-transparent">
+        <img class="position-relative width-maximize" style="z-index: -1;" src="/{{ $img }}" loading="lazy" decoding="async" />
+    </div>
+    {{ if .tags }}
+        {{ partial "tag-list-container.html" (dict "context" $context "links" $links) }}
+    {{ end }}
+</div>

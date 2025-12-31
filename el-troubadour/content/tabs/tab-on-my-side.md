@@ -3,7 +3,7 @@ title: "[Tab] On My Side"
 date: 2021-05-26T13:04:49+02:00
 draft: false
 tags: ["Tab", "Lyrics", "Chords", "Guitar", "English"]
-matching_album: "keeping the sunset on my side"
+matching_album: "keeping-the-sunset-on-my-side"
 ---
 
 This is the official tab for my song "On My Side".

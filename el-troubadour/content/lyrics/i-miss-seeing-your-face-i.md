@@ -3,7 +3,7 @@ title: "I Miss Seeing Your Face I (Lyrics)"
 date: 2022-04-28T20:00:00+02:00
 draft: true
 tags: ["Lyrics", "English"]
-matching_album: "until its over"
+matching_album: "until-its-over"
 ---
 
 These are the official lyrics for the song "I Miss Seeing Your Face (Part 1)". It's track #3 from the album ["Until It's Over"](/albums/until-its-over).

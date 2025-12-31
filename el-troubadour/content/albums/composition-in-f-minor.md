@@ -1,11 +1,16 @@
 ---
 title: "Composition in F Minor"
 date: 2018-09-20T16:59:15+02:00
-draft: false
 
-album_id: "composition in f minor"
+album_id: "composition-in-f-minor"
 image: "composition_in_f_minor.webp"
 album_border_color: "#FFAACC"
+
+urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/composition-in-f-minor/"
+  - name: bandcamp
+    url: "https://tiamo.bandcamp.com/album/composition-in-f-minor"
 
 tags: ["Instrumental", "Piano", "Video Game"]
 ---
@@ -16,9 +21,11 @@ This was the first album I ever recorded, mixed and published. I had been writin
 
 The first song, "Composition in F Minor", is easily the best, both in terms of composition and the way I recorded/mixed it. (Which is also why the album is named after it.)
 
-## Listen
+## Buy/Stream
 
-Use the widget below to listen to the album, right on this website. 
+{{< album-links >}}
+
+Or use the widget below to listen to the album, right on this website. 
 
 If you like what you hear, please consider supporting me by buying the album (or a track)! If you don't like what you hear, well, let me know, all feedback will help me improve.
 

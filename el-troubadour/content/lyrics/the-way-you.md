@@ -3,7 +3,7 @@ title: "The Way You (Lyrics)"
 date: 2022-01-13T23:37:57+02:00
 draft: false
 tags: ["Lyrics", "English"]
-matching_album: "a ship to something"
+matching_album: "a-ship-to-something"
 ---
 
 These are the official lyrics for the song "The Way You". It's track #2 from the album ["A Ship to Something"](/albums/a-ship-to-something). 

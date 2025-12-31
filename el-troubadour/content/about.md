@@ -49,7 +49,7 @@ And my writing has its own home as well: [Tiamo Pastoor](https://tiamopastoor.co
 
 These website were built, however, to easily display and release all my work _for free_. To share it freely, make it accessible, make it look nice, give it a home.
 
-To actually get an income, I run a [(mostly Dutch) webshop](https://nietdathetuitmaakt.nl) selling merchandise. This will be replaced by a much larger, international webshop selling both digital goods (e.g. sound effects, recordings, guides, etc) and physical goods (e.g. a nice T-shirt with a cool guitar logo) in the near future.
+To actually earn an income, I run a [huge online store](https://thewaywardmelody.com) selling both digital goods (e.g. sound effects, recordings, guides, educational audio adventures, etc) and physical goods (e.g. a nice T-shirt with a cool guitar logo).
 
 ## Contact
 

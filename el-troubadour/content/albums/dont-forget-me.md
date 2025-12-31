@@ -5,7 +5,7 @@ draft: true
 image: "dont_forget_me.webp"
 album_border_color: "#221502"
 tags: ["Singer-Songwriter", "Guitar", "Piano", "English", "Mini"]
-album_id: "dont forget me"
+album_id: "dont-forget-me"
 display_tabs: true
 ---
 

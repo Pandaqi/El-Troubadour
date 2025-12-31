@@ -3,7 +3,7 @@ title: "[Tab] There Is a Need"
 date: 2021-05-25T20:44:43+02:00
 draft: false
 tags: ["Tab", "Guitar", "Chords", "Lyrics", "English"]
-matching_album: "keeping the sunset on my side"
+matching_album: "keeping-the-sunset-on-my-side"
 ---
 
 This is the official tab for my song "There Is a Need".

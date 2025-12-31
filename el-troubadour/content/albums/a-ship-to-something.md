@@ -5,10 +5,12 @@ draft: false
 image: "a_ship_to_something.webp"
 album_border_color: "#0181b6"
 tags: ["Singer-Songwriter", "Guitar", "English", "Mini"]
-album_id: "a ship to something"
+album_id: "a-ship-to-something"
 display_tabs: true
 
 urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/a-ship-to-something/"
   - name: spotify
     url: "https://open.spotify.com/album/3V94ehBK3Wa4PWgsKf6DDC"
   - name: itunes

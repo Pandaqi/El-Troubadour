@@ -1,0 +1,40 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<ul class="pagination display-flex remove-list-styles width-maximize flex-space-center font-header text-color-white font-size-l">
+    {{ with $pag.First }}
+    <li class="bg-color-black border-radius-m">
+        <a href="{{ .URL }}" class="page-link padding-m" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    {{ end }}
+    <li class="bg-color-black border-radius-m {{ if not $pag.HasPrev }}opacity-m{{ end }}">
+    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link padding-m" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    {{ $ellipsed := false }}
+    {{ $shouldEllipse := false }}
+    {{ range $pag.Pagers }}
+    {{ $right := sub .TotalPages .PageNumber }}
+    {{ $showNumber := or (le .PageNumber 1) (eq $right 0) }}
+    {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 1)) (lt .PageNumber (add $pag.PageNumber 1)))  }}
+    {{ if $showNumber }}
+        {{ $ellipsed = false }}
+        {{ $shouldEllipse = false }}
+    {{ else }}
+        {{ $shouldEllipse = not $ellipsed }}
+        {{ $ellipsed = true }}
+    {{ end }}
+    {{ if $showNumber }}
+    <li class="bg-color-black border-radius-m {{ if eq . $pag }} active{{ end }}"><a class="page-link padding-m" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+    {{ else if $shouldEllipse }}
+    <li class="padding-m bg-color-black border-radius-m opacity-m"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    {{ end }}
+    {{ end }}
+    <li class="bg-color-black border-radius-m {{ if not $pag.HasNext }}opacity-m{{ end }}">
+    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link padding-m" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    {{ with $pag.Last }}
+    <li class="bg-color-black border-radius-m">
+        <a href="{{ .URL }}" class="page-link padding-m" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

@@ -3,7 +3,7 @@ title: "A Song for a Beautiful City (Lyrics)"
 date: 2022-04-03T23:37:57+02:00
 draft: true
 tags: ["Lyrics", "English"]
-matching_album: "dont forget me"
+matching_album: "dont-forget-me"
 ---
 
 These are the official lyrics for the song "A Song for a Beautiful City". It's track #6 from the album ["Don't Forget Me"](/albums/dont-forget-me).

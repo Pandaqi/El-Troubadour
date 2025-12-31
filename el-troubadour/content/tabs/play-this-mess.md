@@ -3,7 +3,7 @@ title: "Play this Mess (Chords)"
 date: 2022-01-13T23:37:57+02:00
 draft: false
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
-matching_album: "feast your eyes on me"
+matching_album: "feast-your-eyes-on-me"
 ---
 
 These are the official lyrics and chords for the song "Play This Mess". It's track #3 from the album ["Feast your Eyes on Me"](/albums/feast-your-eyes-on-me). 

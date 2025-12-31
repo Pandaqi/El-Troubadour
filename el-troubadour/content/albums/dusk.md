@@ -6,15 +6,24 @@ album_id: "dusk"
 image: dusk.webp
 album_border_color: "#008771"
 tags: ["Guitar", "Piano", "Instrumental", "EP"]
+
+urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/dusk/"
+  - name: bandcamp
+    url: "https://tiamo.bandcamp.com/album/dusk/"
+
 ---
 
 A set of four instrumental compositions (2 piano, 2 guitar) about an impactful event from my youth: the sudden death of my older brother.
 
 This EP has a "twin" called ["Dawn"](/albums/dawn). This means that both EPs are connected through theme, instrumentation, composition, and more, and it's best to listen to them after each other (Dusk -> Dawn).
 
-## Listen
+## Buy/Stream
 
-Use the widget below to listen to the album, right on this website. 
+{{< album-links >}}
+
+Or use the widget below to listen to the album, right on this website. 
 
 If you like what you hear, please consider supporting me by buying the album (or a track)! If you don't like what you hear, well, let me know, all feedback will help me improve.
 

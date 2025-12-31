@@ -1,15 +1,3 @@
-<a href="{{ .RelPermalink }}" class="big-link">
-	<article>
-		{{ $border_color := .Params.album_border_color }}
-	    <div class="album-cover" style="background-color: {{ $border_color }};" >
-	    	<div class="album-shadow">
-	      		<img src="/{{ .Params.image }}" />
-	      	</div>
-	      	<div class="tag-list" style="margin-top: 5px;">
-	      		<span class="tag tag-neutral">{{.Title | truncate 25 }}</span>
-
-	      		{{ partial "tag-list-summary.html" . }}
-	      	</div>
-	    </div>
-	</article>
+<a href="{{ .RelPermalink }}" class="dont-randomize">
+	{{ partial "album-cover.html" (dict "context" . "tags" true "links" false) }}
 </a>

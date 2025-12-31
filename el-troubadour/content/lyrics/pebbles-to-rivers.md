@@ -3,7 +3,7 @@ title: "Pebbles to Rivers (Lyrics)"
 date: 2022-01-13T23:37:57+02:00
 draft: false
 tags: [Lyrics", "English"]
-matching_album: "a ship to something"
+matching_album: "a-ship-to-something"
 ---
 
 These are the official lyrics for the song "Pebbles to Rivers". It's track #4 from the album ["A Ship to Something"](/albums/a-ship-to-something). 

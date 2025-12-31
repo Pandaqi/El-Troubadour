@@ -9,6 +9,8 @@ album_id: "dont give me up"
 display_tabs: true
 
 urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/dont-give-me-up/"
   - name: spotify
     url: "https://open.spotify.com/album/3cKM30uEnpxmGgYEZGeRr6"
   - name: itunes

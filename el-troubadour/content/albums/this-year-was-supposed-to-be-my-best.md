@@ -5,10 +5,12 @@ draft: false
 image: "this_year.webp"
 album_border_color: "#030E29"
 tags: ["English", "Single", "Christmas"]
-album_id: "this year"
+album_id: "this-year-was-supposed-to-be-my-best"
 display_tabs: true
 
 urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/this-year-was-supposed-to-be-my-best"
   - name: spotify
     url: "https://open.spotify.com/album/6B0AGNbNtLF24dxRN7zbTn"
   - name: itunes

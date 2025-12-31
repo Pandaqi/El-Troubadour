@@ -19,26 +19,11 @@ summaryLength 	= 18
 [params]
   title       = "Tiamo El Troubadour"
   subtitle    = "Musician on a Cushion"
-
   favicon     = "favicon.png"
+  description = "The homepage for everything related to Tiamo's music."
 
   defTab     = "defimg-tab.webp"
   defBlog    = "defimg-blog.webp"
-
-  cover       = "img/blog-cover.jpg"
-  description = "The homepage for everything related to Tiamo's music."
-  metaDescription = ""
-
-  twitterName = "TiamoElTroubadour"
-  fbName = "TiamoElTroubadour"
-  githubName = "TiamoElTroubadour"
-
-  author = "Tiamo Pastoor"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Netherlands"
-  authorWebsite = "https://rodepanda.com"
-  authorDescription = "I do stuff ... artfully"
-
   pageNotFoundTitle = "404 - Page not found"
 
 [permalinks]

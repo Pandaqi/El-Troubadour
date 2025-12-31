@@ -5,10 +5,12 @@ draft: false
 image: "is_it_too_much_to_ask.webp"
 album_border_color: "#F62F2C"
 tags: ["Singer-Songwriter", "Guitar", "English", "Mini"]
-album_id: "is it too much to ask"
+album_id: "is-it-too-much-to-ask"
 display_tabs: true
 
 urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/is-it-too-much-to-ask/"
   - name: spotify
     url: "https://open.spotify.com/album/6IVRQxz2sH46XRfZBffqCD"
   - name: itunes

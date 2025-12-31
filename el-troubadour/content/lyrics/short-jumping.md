@@ -3,7 +3,7 @@ title: "Short Jumping (Lyrics)"
 date: 2022-01-13T23:37:57+02:00
 draft: false
 tags: ["Lyrics", "English"]
-matching_album: "feast your eyes on me"
+matching_album: "feast-your-eyes-on-me"
 ---
 
 These are the official lyrics for the song "Short Jumping". It's track #4 from the album ["Feast your Eyes on Me"](/albums/feast-your-eyes-on-me). 

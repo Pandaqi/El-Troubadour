@@ -1,7 +1,7 @@
 {{ define "main" }}
-<h1 class="bare-heading blog-heading">{{ .Title }}</h1>
+<h1 class="blog-heading">{{ .Title }}</h1>
 	
-	<div class="list-grid">
+	<div class="display-grid gap-m">
 		{{ range .Paginator.Pages }}
 			{{ if eq .Section "albums" }}
 				{{ partial "album-summary.html" . }}
@@ -11,7 +11,7 @@
 		{{ end }}
 	</div>
 	<div>
-		{{ template "_internal/pagination.html" . }}
+		{{ partial "pagination" . }}
 	</div>
 
 {{ end }}

@@ -1,20 +1,29 @@
-{{if .Params.tags }}
-	{{ range $index, $tag := .Params.tags }}
+{{ $make_links := eq .links true }}
+{{ $context := .context }}
+
+{{ if $context.Date }}
+	<span class="tag tag-date">{{ $context.Date.Format "Jan 02 2006" }}</span>
+{{ end }}
+
+{{ if $context.Title }}
+	<span class="tag tag-neutral">{{ $context.Title | truncate 25 }}</span>
+{{ end }}
+
+{{ if $context.Params.tags }}
+	{{ range $index, $tag := $context.Params.tags }}
 		{{ $url := printf "/tags/%s" ($tag | urlize) }}
-		<a href="{{  $url }}" class="tag-link">
+		{{ if $make_links }} <a href="{{  $url }}" class="text-decoration-none"> {{ end }}
 			<span class="tag">
 				{{ $tag }} 
 			</span>
-		</a>
+		{{ if $make_links }}</a>{{ end }}
 	{{ end }} 
 {{ end }}
 
-{{ if .Params.fake_tags }}
-
-	{{ range $index2, $fake_tag := .Params.fake_tags }}
+{{ if $context.Params.fake_tags }}
+	{{ range $index2, $fake_tag := $context.Params.fake_tags }}
 	<span class="tag">
 		{{ $fake_tag }} 
 	</span>
 	{{ end }} 
-
 {{ end }}

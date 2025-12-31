@@ -5,7 +5,7 @@ draft: true
 image: "defimg-placeholder.webp"
 album_border_color: "purple"
 tags: ["Singer-Songwriter", "Guitar", "English"]
-album_id: "until its over"
+album_id: "until-its-over"
 display_tabs: true
 ---
 

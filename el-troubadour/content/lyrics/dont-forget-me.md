@@ -3,7 +3,7 @@ title: "Don't Forget Me (Lyrics)"
 date: 2022-04-03T23:37:57+02:00
 draft: true
 tags: ["Lyrics", "English"]
-matching_album: "dont forget me"
+matching_album: "dont-forget-me"
 ---
 
 These are the official lyrics for the song "Don't Forget Me". It's track #1 (and the _title track_) from the album ["Don't Forget Me"](/albums/dont-forget-me).

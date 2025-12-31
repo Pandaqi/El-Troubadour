@@ -3,7 +3,7 @@ title: "[Tab] Walk Awhile With You"
 date: 2021-05-25T22:16:15+02:00
 draft: false
 tags: ["Tab", "Chords", "Lyrics", "Guitar", "English"]
-matching_album: "keeping the sunset on my side"
+matching_album: "keeping-the-sunset-on-my-side"
 ---
 
 This is the official tab for my song "Walk Awhile With You"

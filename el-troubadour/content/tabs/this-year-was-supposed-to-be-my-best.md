@@ -3,7 +3,7 @@ title: "This Year was Supposed to be my Best"
 date: 2021-12-31T23:37:57+02:00
 draft: false
 tags: ["Tab", "Chords", "Piano", "Lyrics", "English"]
-matching_album: "this year"
+matching_album: "this-year-was-supposed-to-be-my-best"
 ---
 
 These are the official lyrics and chords for the song ["This Year was Supposed to be my Best"](/albums/this-year-was-supposed-to-be-my-best). 

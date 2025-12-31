@@ -3,7 +3,7 @@ title: "Is It Too Much to Ask?"
 date: 2021-07-20T23:33:34+02:00
 draft: false
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
-matching_album: "is it too much to ask"
+matching_album: "is-it-too-much-to-ask"
 ---
 
 These are the official lyrics and chords for the song "Is it too much to ask?"

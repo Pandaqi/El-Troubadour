@@ -3,7 +3,7 @@ title: "Maybe you were right (Chords)"
 date: 2022-01-13T23:37:57+02:00
 draft: false
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
-matching_album: "feast your eyes on me"
+matching_album: "feast-your-eyes-on-me"
 ---
 
 These are the official lyrics and chords for the song "Maybe you were right". It's track #2 from the album ["Feast your Eyes on Me"](/albums/feast-your-eyes-on-me). 

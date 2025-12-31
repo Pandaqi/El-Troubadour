@@ -3,7 +3,7 @@ title: "Let Your Mind in My Mind (Chords)"
 date: 2022-04-03T23:37:57+02:00
 draft: true
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
-matching_album: "dont forget me"
+matching_album: "dont-forget-me"
 ---
 
 These are the official lyrics and chords for the song "Let Your Mind in My Mind". It's track #4 from the album ["Don't Forget Me"](/albums/dont-forget-me).

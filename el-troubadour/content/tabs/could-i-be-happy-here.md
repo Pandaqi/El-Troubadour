@@ -3,7 +3,7 @@ title: "Could I Be Happy Here (Chords)"
 date: 2022-04-03T23:37:57+02:00
 draft: true
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
-matching_album: "dont forget me"
+matching_album: "dont-forget-me"
 ---
 
 These are the official lyrics and chords for the song "Could I Be Happy Here". It's track #2 from the album ["Don't Forget Me"](/albums/dont-forget-me).

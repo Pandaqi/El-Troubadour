@@ -3,7 +3,7 @@ title: "[Tab] Keeping the Sunset"
 date: 2021-05-24T15:21:25+02:00
 draft: false
 tags: ["Tab", "Guitar", "Chords", "Lyrics", "English"]
-matching_album: "keeping the sunset on my side"
+matching_album: "keeping-the-sunset-on-my-side"
 ---
 
 Below are my official tabs for the song "Keeping the Sunset"

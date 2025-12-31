@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
 
     {{ $favicon_url := .Site.Params.favicon }}
-    <link rel="icon"  type="image/png" href="{{ $favicon_url }}">
+    <link rel="icon"  type="image/png" href="/{{ $favicon_url }}">
     
 	<!-- Display correct (perhaps concatenated) site title -->
     {{ $title := print .Site.Title " | " .Title }}

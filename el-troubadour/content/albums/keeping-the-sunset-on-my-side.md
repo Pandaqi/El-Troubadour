@@ -5,10 +5,12 @@ draft: false
 image: keeping_the_sunset_cover.webp
 album_border_color: "#8691A4"
 tags: ["Singer-Songwriter", "Guitar", "English", "Mini"]
-album_id: "keeping the sunset on my side"
+album_id: "keeping-the-sunset-on-my-side"
 display_tabs: true
 
 urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/keeping-the-sunset-on-my-side/"
   - name: spotify
     url: "https://open.spotify.com/album/4WDu3uvHJolmMRKdUQeCKs"
   - name: itunes

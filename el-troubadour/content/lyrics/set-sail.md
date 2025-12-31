@@ -3,7 +3,7 @@ title: "Set Sail (Lyrics)"
 date: 2022-02-19T23:37:57+02:00
 draft: false
 tags: ["Lyrics", "English"]
-matching_album: "dont give me up"
+matching_album: "dont-give-me-up"
 ---
 
 These are the official lyrics for the song "Set Sail". It's track #4 from the album ["Don't Give Me Up"](/albums/dont-give-me-up).

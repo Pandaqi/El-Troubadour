@@ -5,10 +5,12 @@ draft: false
 image: "feast_your_eyes_on_me.webp"
 album_border_color: "#052820"
 tags: ["Singer-Songwriter", "Guitar", "English", "Mini", "Piano"]
-album_id: "feast your eyes on me"
+album_id: "feast-your-eyes-on-me"
 display_tabs: true
 
 urls:
+  - name: webshop
+    url: "https://thewaywardmelody.com/explorers/music/feast-your-eyes-on-me"
   - name: spotify
     url: "https://open.spotify.com/album/1Z3LkrEuSL9PTZ2SqetlQc"
   - name: itunes

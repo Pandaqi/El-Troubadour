@@ -3,7 +3,7 @@ title: "All That I Needed to Hear I (Chords)"
 date: 2022-04-28T20:00:00+02:00
 draft: true
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
-matching_album: "until its over"
+matching_album: "until-its-over"
 ---
 
 These are the official lyrics and chords for the song "All That I Needed to Hear (Part 1)". It's track #1 from the album ["Until It's Over"](/albums/until-its-over).

@@ -3,7 +3,7 @@ title: "Don't Give Me Up (Chords)"
 date: 2022-02-19T23:37:57+02:00
 draft: false
 tags: ["Tab", "Chords", "Piano", "Lyrics", "English"]
-matching_album: "dont give me up"
+matching_album: "dont-give-me-up"
 ---
 
 These are the official lyrics and chords for the song "Don't Give Me Up". It's track #1 from the album ["Don't Give Me Up"](/albums/dont-give-me-up). 

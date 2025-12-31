@@ -1,52 +1,47 @@
+<script>
+    function gotoRandomAlbum() {
+        const allAlbums = []
+        {{ range (where .Site.RegularPages "Section" "albums") }}
+            allAlbums.push("{{ .RelPermalink }}");
+        {{ end }}
+
+        const randURL = allAlbums[Math.floor(Math.random() * allAlbums.length)];
+        window.location.href = randURL;
+        return false;
+    }
+</script>
+
 {{ if .IsHome }}
 
-<header class="long-header">
-    <div id="logo-filler">
-    </div>
-
-    <script>
-        function gotoRandomAlbum() {
-            var allAlbums = []
-            {{ range (where .Site.RegularPages "Section" "albums") }}
-                allAlbums.push("{{ .RelPermalink }}");
-            {{ end }}
-
-            var randURL = allAlbums[Math.floor(Math.random() * allAlbums.length)];
-
-            console.log(randURL);
-
-            window.location.href = randURL;
-            return false;
-        }
-    </script>
-
-    <div id="nav-container">
-        <nav id="nav" class="nav-grid">
-            <a href="#" class="nav-link" style="grid-column: span 2; background-color: #744E00;" onclick="gotoRandomAlbum()">Random album</a>
-            <a href="/blog/" class="nav-link" style="background-color: #2EA230;">Blog</a>
-            <a href="/about/" class="nav-link" style="background-color: #223E8B;">About</a>
-            <a href="https://tiamo.bandcamp.com" class="nav-link" style="grid-column: span 2; background-color: #983799;">Buy my music</a>
+<header class="bg-image-header margin-none height-l margin-bottom-negative-s">
+    <div class="height-s"></div>
+    <div class="block-centered">
+        <nav class="display-grid grid-columns-two gap-xs width-max-s block-center-h">
+            <a href="#" class="text-center width-maximize bg-color-black text-color-white border-radius-s font-header font-size-l brighten_hover" style="grid-column: span 2;" onclick="gotoRandomAlbum()">Random album</a>
+            <a href="/blog/" class="text-center width-maximize bg-color-black text-color-white border-radius-s font-header font-size-l brighten_hover">Blog</a>
+            <a href="/about/" class="text-center width-maximize bg-color-black text-color-white border-radius-s font-header font-size-l brighten_hover">About</a>
+            <a href="https://tiamo.bandcamp.com" class="text-center width-maximize bg-color-black text-color-white border-radius-s font-header font-size-l brighten_hover" style="grid-column: span 2;">Buy my music</a>
         </nav>
     </div>
 </header>
 
 {{ else }}
 
-<header class="truncated-header">
-    <nav id="truncated-nav">
-        <a href="/" class="icon-link"><span class="icon icon-home"></span></a>
-        <a href="/albums/" class="icon-link"><span class="icon icon-albums"></span></a>
+<header class="bg-image-header-truncated text-color-white height-m margin-bottom-negative-m">
+    <nav class="display-flex flex-space-center height-xxs block-centered">
+        <a href="/" class="margin-h-xs popup_hover"><span class="icon icon-home"></span></a>
+        <a href="/albums/" class="margin-h-xs popup_hover"><span class="icon icon-albums"></span></a>
         {{ if eq .Section "tabs" }}
-            <h1 class="bare-heading nav-heading">Tab</h1>
+            <h1 class="width-maximize text-center">Tab</h1>
         {{ else if eq .Section "lyrics" }}
-            <h1 class="bare-heading nav-heading">Lyrics</h1>
+            <h1 class="width-maximize text-center">Lyrics</h1>
         {{ else if eq .Section "blog" }}
-            <h1 class="bare-heading nav-heading">Blog</h1>
+            <h1 class="width-maximize text-center">Blog</h1>
         {{ else }}
-             <h1 class="bare-heading nav-heading">{{ .Title }}</h1>
+             <h1 class="width-maximize text-center">{{ .Title }}</h1>
         {{ end }}
-        <a href="/blog/" class="icon-link"><span class="icon icon-blog"></span></a>
-        <a href="/about/" class="icon-link"><span class="icon icon-about"></span></a>
+        <a href="/blog/" class="margin-h-xs popup_hover"><span class="icon icon-blog"></span></a>
+        <a href="/about/" class="margin-h-xs popup_hover"><span class="icon icon-about"></span></a>
     </nav>
 </header>
 
