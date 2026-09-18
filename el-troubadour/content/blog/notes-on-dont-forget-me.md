@@ -1,7 +1,6 @@
 ---
 title: "Notes on \"Don't Forget Me\" "
-date: 2022-04-27T19:30:33+02:00
-draft: true
+date: 2026-04-27T19:30:33+02:00
 
 image: "dont_forget_me.webp"
 tags: ["Album Diary"]

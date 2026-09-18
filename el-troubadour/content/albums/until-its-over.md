@@ -15,10 +15,10 @@ Twenty years of frustration distilled into 8 acoustic songs that destroyed my vo
 
 {{< album-links >}}
 
-Or visit [Until It's Over](https://distrokid.com/hyperfollow/tiamoeltroubadour/until-its-over) to listen to previews and perhaps pick a (different) music store.
+Or visit [Until It's Over](https://distrokid.com/hyperfollow/tiamoeltroubadour/until-its-over/) to listen to previews and perhaps pick a (different) music store.
 
 ## More Info
 
 The story behind this album is long, personal, emotional, and better explained in my detailed notes. (Or by following the trail of projects and writings I've left behind over the years.)
 
-For full background information, notes, audio recording wisdom and more, visit that blog article: [Notes on "Until It's Over"](/blog/notes-on-until-its-over)
+For full background information, notes, audio recording wisdom and more, visit that blog article: [Notes on "Until It's Over"](/blog/notes-on-until-its-over/)

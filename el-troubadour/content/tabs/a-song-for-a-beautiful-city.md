@@ -1,7 +1,6 @@
 ---
 title: "A Song for a Beautiful City (Chords)"
 date: 2022-04-03T23:37:57+02:00
-draft: true
 tags: ["Tab", "Chords", "Piano", "Lyrics", "English"]
 matching_album: "dont-forget-me"
 ---

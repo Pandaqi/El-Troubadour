@@ -1,7 +1,6 @@
 ---
 title: "Don't Forget Me (Lyrics)"
 date: 2022-04-03T23:37:57+02:00
-draft: true
 tags: ["Lyrics", "English"]
 matching_album: "dont-forget-me"
 ---

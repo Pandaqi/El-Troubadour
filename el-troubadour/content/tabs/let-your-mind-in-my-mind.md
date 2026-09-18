@@ -1,7 +1,6 @@
 ---
 title: "Let Your Mind in My Mind (Chords)"
 date: 2022-04-03T23:37:57+02:00
-draft: true
 tags: ["Tab", "Chords", "Guitar", "Lyrics", "English"]
 matching_album: "dont-forget-me"
 ---
