@@ -1,10 +1,25 @@
 # El Troubadour
 
-This is the full source code / project behind [El Troubadour](https://eltroubadour.com), my music website.
+This is the full source code / project behind [El Troubadour](https://eltroubadour.com). It's the official website of Tiamo, El Troubadour (musician).
 
-It's made using Hugo, which means it's a static website that I can generate and upload once in a while.
+![Top of landing page.](design/el-troubadour-header.png)
 
-The actual website is inside `el-troubadour`, everything else is metadata or supportive documents for the project.
+## What Is It?
+
+The website contains
+
+* **ALBUMS/SINGLES:** Information about them and links to popular streaming platforms.
+* **LYRICS:** Official lyrics for all songs.
+* **TABS:** Official tabs/chords for all songs.
+* **DIARIES:** Articles about the process of writing the songs, recording the music, and more.
+
+![Example of tabs/lyrics.](design/el-troubadour-tabs.png)
+
+## Project Structure
+
+It's made using Hugo. That means it's a static website that rebuilds automatically whenever this repository is updated.
+
+The actual website is inside `el-troubadour`. Everything else is metadata or supportive documents for the project.
 
 Nothing is hidden or changed for this public version. It's the actual website, as I build it and host it. You might even find as of yet unpublished stuff there.
 
